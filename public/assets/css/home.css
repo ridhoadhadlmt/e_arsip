@@ -1,0 +1,61 @@
+@font-face{
+    font-family: 'LexendLight';
+    src: url('../fonts/Lexend/Lexend-Light.ttf');
+}
+@font-face{
+    font-family: 'Lexend';
+    src: url('../fonts/Lexend/Lexend-Regular.ttf');
+}
+@font-face{
+    font-family: 'LexendSemiBold';
+    src: url('../fonts/Lexend/Lexend-SemiBold.ttf');
+}
+@font-face{
+    font-family: 'LexendBold';
+    src: url('../fonts/Lexend/Lexend-Bold.ttf');
+}
+
+body {
+    font-family: 'Lexend';
+    overflow-x: hidden;
+    background: #F2F3FA;
+    font-size: 14px;
+}
+.header-section,
+.hero-section {
+    background: #0C83C5;
+}
+.header-section{
+    height: 10vh;
+}
+.header-section .navbar-brand{
+    color: #FFF;
+    font-family: 'LexendSemiBold';
+}
+.hero-section{
+    min-height: 90vh;
+}
+.hero-section .hero-title{
+    font-family: 'LexendBold';
+    font-size: 5rem;
+    color: #FFF;
+}
+.hero-section .hero-subtitle{
+    font-size: 3rem;
+    font-family: 'LexendLight';
+    color: #FFF;
+}
+/* .hero-section .hero-bg{
+    width: 200px;
+} */
+.hero-section .hero-bg{
+    /* position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 750px;
+    height: 500px;
+    background: url('../img/bg-home.svg') no-repeat; */
+}
+.hero-section .hero-bg img{
+    background-size: cover;
+}

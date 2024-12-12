@@ -1,0 +1,76 @@
+@font-face{
+    font-family: 'Lexend';
+    src: url('../fonts/Lexend/Lexend-Regular.ttf');
+}
+@font-face{
+    font-family: 'LexendSemiBold';
+    src: url('../fonts/Lexend/Lexend-SemiBold.ttf');
+}
+@font-face{
+    font-family: 'LexendBold';
+    src: url('../fonts/Lexend/Lexend-Bold.ttf');
+}
+
+body {
+    font-family: 'Lexend';
+    overflow-x: hidden;
+    background: #F5F7FA;
+    font-size: 12px;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: #000;
+}
+.main-wrapper .hero{
+    background: #0C83C5;
+}
+.main-wrapper .hero .navbar-brand{
+    font-size: 36px;
+    font-family: 'LexendBold';
+    color: #FFF;
+}
+.topbar-menu{
+    margin-top: -1.5rem;
+}
+.topbar-menu .navbar-nav{
+    /* box-shadow: 3px 0px 5px rgb(15 34 58 / 12%); */
+}
+.topbar-menu .nav-item{
+    /* margin-right: 1.5rem; */
+}
+.topbar-menu .nav-item .nav-link{
+    color: #9BB1BF;
+    /* padding: 0.5rem; */
+}
+.topbar-menu .nav-item .nav-link.active{
+    background-color: #CFECFF;
+    border-radius: 8px;
+    font-family: 'LexendSemiBold';
+    color: #478FBF;
+}
+.topbar-menu .nav-item .nav-link:hover{
+    background-color: #CFECFF;
+    border-radius: 8px;
+    color: #478FBF;
+}
+.main-content .card.incomings{
+    background: linear-gradient(to right, #ffbf96, #fe7096) !important;
+    color: #FFF;
+  }
+  .main-content .card.outgoings{
+    background: linear-gradient(to right, #90caf9, #047edf 99%) !important;
+    color: #FFF;
+  }
+  .main-content .card.units{
+    background: linear-gradient(to right, #84d9d2, #07cdae) !important;
+    color: #FFF;
+  }
+  .main-content .card.dispositions{
+    background: linear-gradient(to right, #7546A6, #644DB7) !important;
+    color: #FFF;
+  }
+  @media (max-width: 768px){
+    .topbar-menu .navbar-nav{
+        /* display: contents; */
+    }
+  }

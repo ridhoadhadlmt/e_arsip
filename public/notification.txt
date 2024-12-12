@@ -1,0 +1,47 @@
+Notifikasi Penerimaan Surat Masuk:
+
+Pesan: "Anda memiliki surat masuk baru dari [Nama Pengirim]."
+Detail: Nomor Surat: [Nomor Surat], Tanggal: [Tanggal], Judul: [Judul Surat].
+
+
+Notifikasi Penugasan Surat:
+
+Pesan: "Anda telah ditugaskan untuk menangani surat dengan nomor [Nomor Surat]."
+Detail: Deadline: [Tanggal Batas Waktu], Kategori: [Kategori Surat].
+
+
+Notifikasi Pengingat Batas Waktu:
+
+Pesan: "Ingatkan untuk menyelesaikan surat [Nomor Surat] sebelum [Tanggal Batas Waktu]."
+Detail: Judul Surat: [Judul Surat], Tanggal Batas Waktu: [Tanggal Batas Waktu].
+
+
+Notifikasi Status Surat:
+
+Pesan: "Surat dengan nomor [Nomor Surat] telah berhasil dikirimkan kepada [Nama Penerima]."
+Detail: Tanggal Pengiriman: [Tanggal Pengiriman], Status: Terkirim.
+
+
+Notifikasi Perubahan Surat:
+
+Pesan: "Surat [Nomor Surat] telah mengalami perubahan informasi."
+Detail: Deskripsi Perubahan: [Deskripsi Perubahan], Tanggal Perubahan: [Tanggal Perubahan].
+
+
+Notifikasi Undangan Rapat atau Pertemuan:
+
+Pesan: "Anda diundang untuk menghadiri rapat terkait surat [Nomor Surat]."
+Detail: Tanggal Pertemuan: [Tanggal Pertemuan], Lokasi: [Lokasi Pertemuan].
+
+
+
+Notifikasi Penyelesaian Tugas:
+
+Pesan: "Tugas penanganan surat [Nomor Surat] telah selesai."
+Detail: Tanggal Selesai: [Tanggal Selesai], Status: Selesai.
+
+
+Notifikasi Kegagalan Pengiriman:
+
+Pesan: "Surat [Nomor Surat] tidak dapat dikirimkan ke alamat [Alamat Tujuan]."
+Detail: Alasan Kegagalan: [Alasan Kegagalan Pengiriman], Tindakan yang Diperlukan: [Tindakan yang Diperlukan].

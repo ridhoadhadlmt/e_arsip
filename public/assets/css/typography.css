@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * This file is part of Collision.
+ *
+ * (c) Nuno Maduro <enunomaduro@gmail.com>
+ *
+ *  For the full copyright and license information, please view the LICENSE
+ *  file that was distributed with this source code.
+ */
+
+namespace NunoMaduro\Collision;
+
+use Whoops\Run;
+use Whoops\RunInterface;
+use NunoMaduro\Collision\Contracts\Handler as HandlerContract;
+use NunoMaduro\Collision\Contracts\Provider as ProviderContract;
+
+/**
+ * This is an Collision Provider implementation.
+ *
+ * @author Nuno Maduro <enunomaduro@gmail.com>
+ */
+class Provider implements ProviderContract
+{
+    /**
+     * Holds an instance of the Run.
+     *
+     * @var \Whoops\RunInterface
+     */
+    protected $run;
+
+    /**
+     * Holds an instance of the handler.
+     *
+     * @var \NunoMaduro\Collision\Contracts\Handler
+     */
+    prot
